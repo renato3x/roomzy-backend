@@ -1,1 +1,7 @@
-console.log('Hello World');
+import 'reflect-metadata';
+
+async function main() {
+
+}
+
+main();

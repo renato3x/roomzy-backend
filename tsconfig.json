@@ -16,6 +16,14 @@
     "emitDecoratorMetadata": true,
     "noImplicitReturns": true,
     "noImplicitAny": true,
-    "outDir": "dist"
+    "outDir": "dist",
+    "paths": {
+      "@schemas/*": ["./src/schemas/*"],
+      "@schemas": ["./src/schemas/index.ts"],
+      "@resolvers/*": ["./src/resolvers/*"],
+      "@resolvers": ["./src/resolvers/index.ts"],
+      "@inputs/*": ["./src/inputs/*"],
+      "@inputs": ["./src/inputs/index.ts"],
+    }
   }
 }
