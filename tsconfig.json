@@ -17,6 +17,7 @@
     "noImplicitReturns": true,
     "noImplicitAny": true,
     "outDir": "dist",
+    "strictPropertyInitialization": false,
     "paths": {
       "@schemas/*": ["./src/schemas/*"],
       "@schemas": ["./src/schemas/index.ts"],
@@ -24,6 +25,7 @@
       "@resolvers": ["./src/resolvers/index.ts"],
       "@inputs/*": ["./src/inputs/*"],
       "@inputs": ["./src/inputs/index.ts"],
+      "@src/*": ["./src/*"],
     }
   }
 }

@@ -1,7 +1,3 @@
-import 'reflect-metadata';
+import { server } from './server';
 
-async function main() {
-
-}
-
-main();
+server();
