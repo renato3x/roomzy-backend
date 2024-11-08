@@ -1,3 +1,7 @@
+import dotenv from 'dotenv';
+
+dotenv.config();
+
 import { server } from '@src/server';
 import { beforeAll, describe, expect, test } from 'vitest';
 

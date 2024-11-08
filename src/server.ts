@@ -13,7 +13,7 @@ export async function server() {
 
   const { url } = await startStandaloneServer(server, {
     listen: {
-      port: 3000,
+      port: Number(process.env.SERVER_PORT),
     },
   });
 
